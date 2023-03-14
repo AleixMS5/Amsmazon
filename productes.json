@@ -1,0 +1,9 @@
+[
+  "{\"nom\": \"octpath traveler \", \"preu\": 50.0, \"descripcio\": \"rpg\", \"descripciollarga\": \"8 personages con historias diferentes en un mismo juego\", \"destacat\": \"True\", \"valoracio\": 5.0, \"imatge\": \"https://cdn.cloudflare.steamstatic.com/steam/apps/921570/header.jpg?t=1663152377\"}",
+  "{\"nom\": \"octpath traveler 2\", \"preu\": 50.0, \"descripcio\": \"rpg\", \"descripciollarga\": \"8 personages con historias diferentes en un mismo juego\", \"destacat\": \"True\", \"valoracio\": 5.0, \"imatge\": \"https://cdn.cloudflare.steamstatic.com/steam/apps/921570/header.jpg?t=1663152377\"}",
+  "{\"_id\": 1, \"nom\": \"ss\", \"preu\": 3.0, \"descripcio\": \"ss\", \"descripciollarga\": \"dd\", \"destacat\": \"\", \"valoracio\": 3.0, \"imatge\": \"dd\"}",
+  "{\"_id\": 1, \"nom\": \"s\", \"preu\": 4.0, \"descripcio\": \"s\", \"descripciollarga\": \"s\", \"destacat\": false, \"valoracio\": 4.0, \"imatge\": \"s\"}",
+  "{\"_id\": 1, \"nom\": \"s\", \"preu\": 4.0, \"descripcio\": \"s\", \"descripciollarga\": \"s\", \"destacat\": false, \"valoracio\": 4.0, \"imatge\": \"s\"}",
+  "{\"_id\": 1, \"nom\": \"c\", \"preu\": 2.0, \"descripcio\": \"c\", \"descripciollarga\": \"d\", \"destacat\": false, \"valoracio\": 2.0, \"imatge\": \"d\"}",
+  "{\"_id\": 1, \"nom\": \"c\", \"preu\": 2.0, \"descripcio\": \"c\", \"descripciollarga\": \"d\", \"destacat\": \"True\", \"valoracio\": 2.0, \"imatge\": \"d\"}"
+]
