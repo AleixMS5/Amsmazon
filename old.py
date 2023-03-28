@@ -17,7 +17,7 @@ class producte:
 def llegir() :
     try:
         llistaProductes.clear()
-        with open('venv/productes.json') as fitxer:
+        with open('productes.json') as fitxer:
             json_02 = json.load(fitxer)
             for jsons in json_02:
                 llistaProductes.append( json.loads(jsons, object_hook=lambda d: SimpleNamespace(**d)))
@@ -64,7 +64,7 @@ def guardar() :
         llistaProductes.append(product)
         for product in llistaProductes:
             json_o1.append(json.dumps(product.__dict__))
-        with open('venv/productes.json', 'w') as fitxer:
+        with open('productes.json', 'w') as fitxer:
             json.dump(json_o1, fitxer)
     except Exception:
         pass

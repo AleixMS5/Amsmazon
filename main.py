@@ -19,6 +19,16 @@ class producte:
         self.valoracio = valoracio
         self.imatge = imatge
 
+class producteAmbId:
+    def __init__(self,id, nom, preu, descripcio, descripciollarga, destacat, valoracio, imatge):
+        self.id=id
+        self.nom = nom
+        self.preu = preu
+        self.descripcio = descripcio
+        self.descripciollarga = descripciollarga
+        self.destacat = destacat
+        self.valoracio = valoracio
+        self.imatge = imatge
 
 def buscar1(a):
     curItem = tree.focus()
@@ -146,9 +156,9 @@ def modificar():
                  {"$set": {"imatge": product.imatge}}]
     pepe = idmod1.get()
     myquery = {"_id": ObjectId(pepe)}
-    print(myquery)
 
-    print(mycol.update_one(myquery, newvalues))
+
+    mycol.update_one(myquery, newvalues)
     llegir()
 
 
