@@ -30,6 +30,13 @@ def plantilla():
     contingut = template.render(info)
     return f'{contingut}'
 
+
+@app.route('/about')
+def about():
+    resultados = []
+    template = enviroment.get_template("about.html")
+    contingut = template.render()
+    return f'{contingut}'
 @app.route('/nom')
 def mostrar_productes():
     resultados = []
