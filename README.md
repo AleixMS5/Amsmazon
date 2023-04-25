@@ -10,8 +10,10 @@ https://docs.google.com/presentation/d/e/2PACX-1vR0BgjEPh9lgp0mZP_ZJ_eyNd9bQNeZn
 
 
 <h1>How to use the component</h1>
- the component requires the library pickle
+<h3>Requeriments</h3>
+the component requires the library pickle
  
+<h3>Manual</h3>
 saveobject: it requires an object and a string with the name of the file for save an object
 
 restoreobject: it requires an id for thw object and the name of the file for get an object
