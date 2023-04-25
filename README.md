@@ -11,7 +11,7 @@ https://docs.google.com/presentation/d/e/2PACX-1vR0BgjEPh9lgp0mZP_ZJ_eyNd9bQNeZn
 
 <h1>How to use the component</h1>
 <h3>Requeriments</h3>
-the component requires the library pickle
+<p>the component requires the library pickle</p>
  
 <h3>Manual</h3>
 <p>saveobject: it requires an object and a string with the name of the file for save an object</p>
