@@ -12,14 +12,14 @@ https://docs.google.com/presentation/d/e/2PACX-1vR0BgjEPh9lgp0mZP_ZJ_eyNd9bQNeZn
 <h1>How to use the component</h1>
  the component requires the library pickle
  
-saveobject it requires an object and a string with the name of the file for save an object
+saveobject: it requires an object and a string with the name of the file for save an object
 
-restoreobject it requires an id for thw object and the name of the file for get an object
+restoreobject: it requires an id for thw object and the name of the file for get an object
 
-deleteFitxer it wipes the file, requires the name of the file
+deleteFitxer: it wipes the file, requires the name of the file
 
-updateObject for update an object , it requires the name of the file, the id ob the object you want to update and a new object 
+updateObject: for update an object , it requires the name of the file, the id ob the object you want to update and a new object 
 
-deleteObject it also requires the file and and id for delete the object you want
+deleteObject: it also requires the file and and id for delete the object you want
  
-getall with the name of the file it recovers all the objects in the file
+getall: with the name of the file it recovers all the objects in the file
