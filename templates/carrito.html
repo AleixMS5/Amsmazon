@@ -1,0 +1,50 @@
+{% extends "plantilla.html" %}
+{% block content %}
+<div class="container">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">quantity</th>
+            <th scope="col">unit price</th>
+            <th scope="col">price</th>
+            <th scope="col">product id</th>
+            <th scope="col">#</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        {% for producte in carrito %}
+        <tr>
+            <th scope="row">
+                <form action="" method="POST">
+                    <!-- campo del formulario -->
+                    <div class="input-group mb-3">
+                        <button type="submit" class="btn btn-outline-secondary" id="button-addon1">actualitzar
+                        </button>
+                        <input type="number" id="tentacles" name="tentacles" value="{{producte.quantity}}"
+                               min="1" max="100">
+                    </div>
+                    <input type="hidden" id="product" name="product" value="{{producte.id}}">
+                </form>
+            </th>
+            <td>{{producte.price}}</td>
+            {% set precio = producte.price | float %}
+            {% set cantidad = producte.quantity | float %}
+             <td>{{precio*cantidad}}</td>
+            <td>{{producte.id}}</td>
+            <td> <div class="col-sm">
+                <a href="/carrito/{{producte.id}}">delete</a>
+            </div></td>
+        </tr>
+
+
+        {% endfor %}
+        </tbody>
+
+    </table>
+    <p>TOTAL: {{total}}</p>
+    <button type="button" class="btn btn-danger">  <a  class="link-dark" href="/delete" style="text-decoration:none;">vaciar carrito</a></button>
+</div>
+{% endblock %}
